@@ -288,7 +288,7 @@ open class Session {
                                              encoding: encoding,
                                              headers: headers,
                                              requestModifier: requestModifier)
-
+        print("private host Alamofire")
         return request(convertible, interceptor: interceptor)
     }
 
